@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+    .wrapper{
+       width: 400px;
+       height: 400px;
+       margin: 0 auto;
+    }
+    .wrapper div{
+       width: 100px;
+       height: 100px;
+       float: left;
+       font-size: 0.7rem;
+    }
+    .wrapper div::after{
+        content: "";
+        display: block;
+        clear: both;   
+    }
+    .col{
+        margin-right: -100px;  
+    }
+    .col-1{
+       background: lime;
+       margin-left: 300px;       
+    }
+    .col-2{
+        background: hotpink;
+        margin-left: 300px;
+    }
+    .col-3{
+        background: rebeccapurple;
+        margin-left: 300px;
+    }
+    .col-4{
+        background: tomato;
+        margin-left: 300px;
+    }
+    .col-5{
+        background: turquoise;
+        margin-left: -200px;
+        margin-top: -300px;
+    }
+    .col-6{
+        background: plum;
+       margin-left: -100px;
+       margin-top: -300px;
+    }
+    .col-7{
+        background: orange;
+        margin-left: -200px;
+        margin-top: -200px;
+    }
+    .col-8{
+        background: olivedrab;
+        margin-left: -100px;
+        margin-top: -200px;
+    }
+    .col-9{
+        background: blue;
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .col-10{
+        background: springgreen;
+        margin-left: -100px;
+    }
+    .col-11{
+        background: skyblue;
+        margin-left: -200px;
+        margin-top: -100px;
+    }
+    .col-12{
+        background: yellow;
+        margin-left: -200px;
+    }    
+    .col-13{
+        background: darksalmon;
+        margin-left: -300px;
+        margin-top: -300px;
+    }
+    .col-14{
+        background: darkred;
+        margin-left: -300px;
+        margin-top: -200px;
+    }
+    .col-15{
+        background: deeppink;
+        margin-left: -300px;
+        margin-top: -100px;
+    }
+    .col-16{
+        background: goldenrod;
+        margin-left: -300px;
+    }
